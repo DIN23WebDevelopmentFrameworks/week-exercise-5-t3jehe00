@@ -1,6 +1,6 @@
 import { render, screen, within, waitFor, act } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import App from "./App";
+import App from "./components/App";
 import { vi } from 'vitest';
 import { mockTagList, mockRecipeList } from "./testMockData";
 
